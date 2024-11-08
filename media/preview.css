@@ -1,0 +1,9 @@
+/* Style for indeterminate checkboxes */
+input[type="checkbox"].indeterminate {
+    color: gray;
+}
+
+/* Style for code blocks with no language specified */
+pre > code:not([class*="language-"]) {
+    color: green;
+}
