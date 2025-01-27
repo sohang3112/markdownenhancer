@@ -21,7 +21,19 @@
         ],
         "markdown.previewScripts": [
             "./media/preview.js"
-        ]
+        ],
+        "tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "markup.fenced_code.block.markdown"
+                    ],
+                    "settings": {
+                        "foreground": "#6A9955"
+                    }
+                }
+            ]
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",

@@ -1,9 +1,4 @@
-/* Style for indeterminate checkboxes */
+/* Style for indeterminate checkboxes; NOT STRICTLY REQUIRED (NOT SURE IF IT HAS ANY EFFECT) - MAYBE REMOVE? */
 input[type="checkbox"].indeterminate {
     color: gray;
-}
-
-/* Style for code blocks with no language specified */
-pre > code:not([class*="language-"]) {
-    color: green;
 }
